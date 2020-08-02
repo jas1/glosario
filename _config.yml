@@ -1,0 +1,35 @@
+title: "Glossary"
+repository: <USERNAME>/<PROJECT>
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: "page"
+kramdown:
+  toc_levels: "2"
+exclude:
+- "Makefile"
+- "README.md"
+- "bin/*"
+- "vendor"
+languages:
+- key: af
+  name: Afrikaans
+  title: Woordelys
+  flag: south-africa
+- key: en
+  name: English
+  title: Glossary
+  flag: united-kingdom
+- key: es
+  name: Español
+  title: Glossaire
+  flag: spain
+- key: fr
+  name: Français
+  title: Glosario
+  flag: france
+- key: zu
+  name: IsiZulu
+  title: Uhlu Lwamagama
+  flag: south-africa
